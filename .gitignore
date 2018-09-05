@@ -1,0 +1,5 @@
+.DS_Store
+examples/*/.terraform
+examples/*/*tfstate*
+*-*-*.json
+GLOBAL.json

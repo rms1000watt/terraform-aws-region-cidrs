@@ -1,0 +1,5 @@
+locals {
+  {{region}} = [{%- for cidr in cidrs %}
+    "{{cidr}}",{%- endfor %}
+  ]
+}
